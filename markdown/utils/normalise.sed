@@ -1,0 +1,10 @@
+s/á/\&aacute;/g
+s/é/\&aacute;/g
+s/í/\&aacute;/g
+s/ó/\&aacute;/g
+s/ú/\&aacute;/g
+s/Á/\&aacute;/g
+s/É/\&aacute;/g
+s/Í/\&aacute;/g
+s/Ó/\&aacute;/g
+s/Ú/\&aacute;/g
