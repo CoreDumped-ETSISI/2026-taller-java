@@ -19,7 +19,10 @@
     4. Bucle do-while
     5. Bucle for
 6. Funciones
-7. Tipos complejos: Clases, objetos, Strings y Envoltorias
+    1. Según su valor de retorno
+    2. Según sus parámetros
+    3. Métodos estáticos vs. de instancia
+8. Tipos complejos: Clases, objetos, Strings y Envoltorias
     1. Clases y Objetos
     2. Clase String
     3. Clases Envoltorias
@@ -211,6 +214,60 @@ public class Main {
     }
 }
 ```
+
+## 6.1 Según su valor de retorno (`void` vs Con retorno)
+*   **Métodos `void` (Vacíos):** Realizan una acción (como imprimir por pantalla) pero **no devuelven ningún valor** al finalizar.
+*   **Métodos con retorno:** Realizan un cálculo u operación y **devuelven un resultado** utilizando la palabra clave `return` (indicando el tipo de dato que devuelven).
+
+```java
+// 1. Método VOID: Solo ejecuta una tarea, no devuelve nada
+public static void saludar(String nombre) {
+    System.out.println("¡Hola, " + nombre + "!");
+}
+
+// 2. Método CON RETORNO: Devuelve un número entero (int)
+public static int sumar(int a, int b) {
+    return a + b; 
+}
+```
+
+## 6.2 Según sus parámetros
+Sin parámetros: No necesitan ninguna información externa para ejecutarse.<br>
+
+Con parámetros: Requieren que les pases variables o valores específicos entre los paréntesis para poder trabajar con ellos.<br>
+
+```java
+// Sin parámetros ni retorno
+public static void mostrarCabecera() {
+    System.out.println("=== TALLER DE JAVA ===");
+}
+
+// Con múltiples parámetros de diferentes tipos
+public static void imprimirDatos(String nombre, int edad) {
+    System.out.println("Nombre: " + nombre + " | Edad: " + edad);
+}
+```
+
+## 6.3 Métodos Estáticos (static) vs De Instancia
+Métodos Estáticos (`static`): Pertenecen directamente a la clase. Se pueden invocar sin necesidad de crear un objeto (como el método main). Es lo que usamos al principio cuando estamos aprendiendo.<br>
+
+Métodos de Instancia (Sin `static`): Pertenecen a un objeto específico y requieren que primero instancies la clase con new para poder llamarlos (se verá más adelante).<br>
+
+```java
+public class Main {
+    
+    // Método estático (se puede llamar directamente desde el main)
+    public static void mensajeEstatico() {
+        System.out.println("Soy un método estático.");
+    }
+
+    public static void main(String[] args) {
+        // Llamada directa al método estático
+        mensajeEstatico(); 
+    }
+}
+```
+
 
 # 7. Tipos Complejos: Clases, objetos, Strings y Envoltorias
 ## 7.1 Clases y Objetos
