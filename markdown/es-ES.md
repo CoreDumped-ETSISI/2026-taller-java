@@ -61,7 +61,7 @@ boolean sonDiferentes = (a != b);   // true  (¿a es diferente de b?)
 ```
 
 ## 2.2 Operadores de Orden (Relacionales)
-Se utilizan para comparar magnitudes (mayor, menor, etc.). También devuelven un valor booleano (true o false).
+Se utilizan para comparar magnitudes (mayor, menor, etc.). También devuelven un valor booleano (`true` o `false`).
 
 ```java
 int edad = 20;
@@ -75,9 +75,9 @@ boolean limiteSuperior = (edad <= 65); // true
 ## 2.3 Operadores Lógicos
 Sirven para conectar varias condiciones o negar expresiones booleanas.
 
-&& (AND / Y): Devuelve true si ambas condiciones se cumplen.
-|| (OR / O): Devuelve true si se cumple al menos una de las condiciones.
-! (NOT / NO): Invierte el valor booleano (true pasa a false y viceversa).
+&& (AND / Y): Devuelve true si ambas condiciones se cumplen.<br>
+|| (OR / O): Devuelve true si se cumple al menos una de las condiciones.<br>
+! (NOT / NO): Invierte el valor booleano (true pasa a false y viceversa).<br>
 
 ```java
 boolean tieneDinero = true;
