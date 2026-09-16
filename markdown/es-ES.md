@@ -96,12 +96,6 @@ boolean sinDinero = !tieneDinero; // false
 ## 2.4 Operaciones Aritméticas
 Son los operadores matemáticos básicos para realizar cálculos numéricos.
 
-+ (Suma)
-- (Resta)
-* (Multiplicación)
-/ (División)
-% (Residuo de la división)
-
 ```java
 int x = 10;
 int y = 3;
@@ -113,6 +107,149 @@ int division = x / y;   // 3 (al ser enteros, descarta los decimales)
 int resto = x % y;      // 1 (el residuo de dividir 10 entre 3 es 1)
 ```
 
+# 3. Comentarios
+Los comentarios son notas explicativas que el compilador de Java ignora por completo durante la ejecución.
 
-7. Tipos complejos: clases y objetos
-8. Estructuras de datos
+```java
+// comentario de una sola línea
+
+/* bloque 
+   de comentarios multilínea */
+```
+
+
+# 4. Imprimir por pantalla
+Para mostrar información interactiva por consola utilizamos el objeto System.out.
+
+```java
+System.out.print("Hola ");       // Imprime sin salto de línea
+System.out.println("Mundo!");    // Imprime y hace un salto de línea al final
+```
+
+# 5. Control del flujo
+## 5.1 Sentencia condicional (if-else)
+Permite ejecutar bloques de código dependiendo de si se cumple o no una condición.
+
+```java
+int edad = 18;
+
+if (edad >= 18) {
+    System.out.println("Eres mayor de edad.");
+} else {
+    System.out.println("Eres menor de edad.");
+}
+```
+
+## 5.2 Switch
+Útil para evaluar una variable frente a múltiples valores fijos posibles.
+
+```java
+int dia = 2;
+
+switch (dia) {
+    case 1:
+        System.out.println("Lunes");
+        break;
+    case 2:
+        System.out.println("Martes");
+        break;
+    default:
+        System.out.println("Otro día");
+        break;
+}
+```
+
+## 5.3 Bucle while
+Ejecuta un bloque de código repetidamente mientras una condición sea verdadera.
+```java
+int contador = 1;
+
+while (contador <= 3) {
+    System.out.println("Contador: " + contador);
+    contador++; // bucle infinito!
+}
+```
+
+## 5.4 Bucle do-while
+Similar al while, pero garantiza que el bloque de código se ejecuta al menos una vez antes de evaluar la condición.
+
+```java
+int intentos = 0;
+
+do {
+    System.out.println("Intentando conectar...");
+    intentos++;
+} while (intentos < 1);
+```
+
+## 5.5 Bucle for
+Ideal cuando sabemos de antemano cuántas veces queremos repetir un bloque de instrucciones.
+
+```java
+for (int i = 1; i <= 3; i++) {
+    System.out.println("Iteración número: " + i);
+}
+```
+
+# 6. Funciones
+Las funciones/métodos permiten agrupar bloques de código reutilizables para evitar duplicidades y organizar mejor el programa.
+
+```java
+public class Main {
+    // Declaración de una función que suma dos números y retorna el resultado
+    public static int sumar(int a, int b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+        // Llamada a la función
+        int resultado = sumar(10, 5);
+        System.out.println("El resultado es: " + resultado);
+    }
+}
+```
+
+# 7. Tipos Complejos: Clases y objetos
+Una clase funciona como un "plano" o plantilla, y los objetos son instancias creadas a partir de ese plano.
+
+```java
+// Definición de la clase
+class Perro {
+    String nombre; // Atributo
+
+    // Método
+    void ladrar() {
+        System.out.println(nombre + " dice: rawr");
+    }
+}
+
+// Uso en el programa principal (Main)
+Perro miPerro = new Perro(); // Creación del objeto
+miPerro.nombre = "Firulais";
+miPerro.ladrar();            // Imprime: Firulais dice: rawr
+```
+
+# 8. Estructuras de datos
+## 8.1 Arrays Estáticos
+Permiten almacenar múltiples elementos del mismo tipo en una estructura de tamaño fijo. (LOS ÍNDICES EMPIEZAN EN 0 AAA).
+
+```java
+String[] frutas = {"Manzana", "Pera", "Plátano"};
+
+System.out.println(frutas[0]); // Muestra "Manzana"
+```
+
+
+## 8.2 ArrayList (Listas Dinámicas)
+Estructura muy utilizada en Java cuando el tamaño de los elementos puede variar.
+```java
+import java.util.ArrayList;
+
+ArrayList<String> nombres = new ArrayList<>();
+
+nombres.add("Ana");     // Añadir elemento
+nombres.add("Carlos");
+
+System.out.println(nombres.get(0)); // Obtener elemento: "Ana"
+System.out.println("Total: " + nombres.size()); // Tamaño de la lista
+```
