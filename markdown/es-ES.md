@@ -15,9 +15,10 @@
 4. Imprimir por pantalla
 5. Control del flujo
     1. Sentencia condicional (if-else)
-    2. Bucle while
-    3. Bucle do
-    4. Bucle for
+    2. Switch
+    3. Bucle while
+    4. Bucle do
+    5. Bucle for
 6. Funciones
 7. Tipos complejos: clases y objetos
 8. Estructuras de datos
