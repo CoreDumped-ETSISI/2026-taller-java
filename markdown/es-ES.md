@@ -19,8 +19,11 @@
     4. Bucle do-while
     5. Bucle for
 6. Funciones
-7. Tipos complejos: Clases y objetos
-8. Estructuras de datos
+7. Tipos complejos: Clases, objetos, Strings y Envoltorias
+    1. Clases y Objetos
+    2. Clase String
+    3. Clases Envoltorias
+9. Estructuras de datos
 
 ---
 
@@ -209,7 +212,8 @@ public class Main {
 }
 ```
 
-# 7. Tipos Complejos: Clases y objetos
+# 7. Tipos Complejos: Clases, objetos, Strings y Envoltorias
+## 7.1 Clases y Objetos
 Una clase funciona como un "plano" o plantilla, y los objetos son instancias creadas a partir de ese plano.
 
 ```java
@@ -227,6 +231,34 @@ class Perro {
 Perro miPerro = new Perro(); // Creación del objeto
 miPerro.nombre = "Firulais";
 miPerro.ladrar();            // Imprime: Firulais dice: rawr
+```
+## 7.2 Clase String
+A diferencia de `char` (que es primitivo y guarda una sola letra), `String` es una clase. Por eso sus nombres empiezan con mayúscula y tienen métodos incorporados muy útiles.
+
+```java
+String saludo = "Hola, Java";
+
+int cantidadLetras = saludo.length();        // 10 (cuenta caracteres)
+String enMayusculas = saludo.toUpperCase();  // "HOLA, JAVA"
+boolean empiezaCon = saludo.startsWith("Ho"); // true
+```
+
+## 7.3 Clases Envoltorias
+Permiten tratar a los tipos primitivos `(int, double, boolean)` como si fueran objetos.
+Cada primitivo tiene su clase envoltorio equivalente (con la primera letra en mayúscula)<br>
+:int $\rightarrow$ Integer<br>
+double $\rightarrow$ Double<br>
+boolean $\rightarrow$ Boolean<br>
+char $\rightarrow$ Character<br>
+
+```java
+// Convertimos un primitivo en un objeto (Autoboxing)
+Integer edadObjeto = 20; 
+Double precioObjeto = 450.50;
+
+// Tienen métodos útiles, por ejemplo, convertir texto a número:
+String numeroTexto = "123";
+int numeroReal = Integer.parseInt(numeroTexto); // Convierte "123" a entero 123
 ```
 
 # 8. Estructuras de datos
