@@ -16,27 +16,32 @@
     1. Sentencia condicional (if-else)
     2. Switch
     3. Bucle while
-    4. Bucle do
+    4. Bucle do-while
     5. Bucle for
 6. Funciones
+7. Tipos complejos: Clases y objetos
+8. Estructuras de datos
 
-
+---
 
 # 1. Fundamentos y Sintaxis Básica
 
 ## 1.1 Tipos Primitivos y convención de nombres (CamelCase)
 En Java, toda variable debe declararse indicando su tipo de dato. Se recomienda utilizar la convención **camelCase** para los nombres.
 
+```java
 int edadEstudiante = 20;         // Números enteros
 double precioMatricula = 450.50; // Números con decimales
 char calificacion = 'A';         // Un solo carácter
 boolean esAprobado = true;       // Valores lógicos (true / false)
-float ejemploFloat = 12.345f;    // Números con decimales (Muchos decimales)
+float ejemploFloat = 12.345f;    // Números con decimales (precisión simple)
+
 
 ## 1.2 Declaración de variables
 La estructura básica para declarar y asignar un valor es:
 tipoDato nombreVariable = valor;
 
+```java
 int numeroPokemons;          // Declaración
 numeroPokemons = 151;        // Asignación posterior
 
@@ -47,6 +52,7 @@ Los operadores en Java son símbolos que nos permiten manipular variables, reali
 ## 2.1 Operadores de Condición (o de Igualdad / Relacionales básicos)
 Nos permiten comprobar si dos valores son iguales o diferentes. El resultado de estas operaciones siempre es un booleano (`true` o `false`).
 
+```java
 int a = 5;
 int b = 10;
 
@@ -56,6 +62,7 @@ boolean sonDiferentes = (a != b);   // true  (¿a es diferente de b?)
 ## 2.2 Operadores de Orden (Relacionales)
 Se utilizan para comparar magnitudes (mayor, menor, etc.). También devuelven un valor booleano (true o false).
 
+```java
 int edad = 20;
 
 boolean esMayorEdad = (edad >= 18);  // true
@@ -70,6 +77,7 @@ Sirven para conectar varias condiciones o negar expresiones booleanas.
 || (OR / O): Devuelve true si se cumple al menos una de las condiciones.
 ! (NOT / NO): Invierte el valor booleano (true pasa a false y viceversa).
 
+```java
 boolean tieneDinero = true;
 boolean tienePermiso = false;
 
@@ -92,6 +100,7 @@ Son los operadores matemáticos básicos para realizar cálculos numéricos.
 / (División)
 % (Residuo de la división)
 
+```java
 int x = 10;
 int y = 3;
 
