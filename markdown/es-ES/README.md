@@ -21,7 +21,6 @@
 6. [Funciones](06.md)
     1. Seg&uacute;n su valor de retorno
     2. Seg&uacute;n sus par&aacute;metros
-    3. M&eacute;todos est&aacute;ticos y de instancia
 7. [Tipos complejos: clases](07.md)
     1. Clases y objetos
     2. La clase `String`
