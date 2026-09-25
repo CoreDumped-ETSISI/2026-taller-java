@@ -29,15 +29,22 @@
     1. Vectores de longirud fija (arrays)
     2. `ArrayList` (listas din&aacute;micas)
 9. [Clases abstractas e interfaces](09.md)
+    1. Clases abstractas
+    2. Interfaces
+    3. Diferencias clave
+    4. ¿Cu&aacute;ndo usar cada una?
 10. [Herencia y polimorfismo](10.md)
-11. [Clases parametrizadas](11.md)
+    1. Herencia
+    2. Polimorfismo
+    3. Resumen
+13. [Clases parametrizadas](11.md)
     1. Definici&oacute;n
     2. Declaraci&oacute;n
     3. Uso
-12. [Interfaces funcionales](12.md)
+14. [Interfaces funcionales](12.md)
     1. Definici&oacute;n
     2. Interfaces y usos
-13. [Flujos](13.md)
+15. [Flujos](13.md)
     1. Concepto
     2. La clase `Stream`
     3. Principales usos
