@@ -8,3 +8,5 @@ s/É/\&Eacute;/g
 s/Í/\&Iacute;/g
 s/Ó/\&Oacute;/g
 s/Ú/\&Uacute;/g
+s/ñ/\&ntilde;/g
+s/Ñ/\&Ntilde;/g
