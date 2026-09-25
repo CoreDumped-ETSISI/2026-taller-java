@@ -30,10 +30,14 @@
     2. `ArrayList` (listas din&aacute;micas)
 9. [Clases abstractas e interfaces](09.md)
 10. [Herencia y polimorfismo](10.md)
-11. [Interfaces funcionales](11.md)
-    1. Concepto
+11. [Clases parametrizadas](11.md)
+    1. Definici&oacute;n
+    2. Declaraci&oacute;n
+    3. Uso
+12. [Interfaces funcionales](12.md)
+    1. Definici&oacute;n
     2. Interfaces y usos
-12. [Flujos](12.md)
+13. [Flujos](13.md)
     1. Concepto
     2. La clase `Stream`
     3. Principales usos
