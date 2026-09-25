@@ -1,6 +1,6 @@
 # Taller de Introducci&oacute;n al Lenguaje de Programaci&oacute;n Java
 
-# 4. Mostrado de informaci&oacute;n por pantalla
+# Mostrado de informaci&oacute;n por pantalla
 
 Para mostrar informaci&oacute;n por consola utilizamos el objeto System.out.
 

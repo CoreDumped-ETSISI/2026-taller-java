@@ -1,6 +1,6 @@
 # Taller de Introducci&oacute;n al Lenguaje de Programaci&oacute;n Java
 
-# 6. Funciones
+# Funciones
 
 Las funciones y m&eacute;todos permiten agrupar bloques de c&oacute;digo reutilizables para evitar duplicidades y organizar mejor los programas.
 
@@ -19,7 +19,7 @@ public class Main {
 }
 ```
 
-## 6.1 Seg&uacute;n su valor de retorno
+## Seg&uacute;n su valor de retorno
 
 - **Procedimientos (o "funciones `void`"):** realizan una acci&oacute;n (como imprimir por pantalla) pero **no devuelven ning&uacute;n valor** al finalizar.
 - **Funciones (devuelven un valor):** realizan un c&aacute;lculo u operaci&oacute;n y **devuelven un resultado** utilizando la palabra clave `return` (e indicando el tipo de dato que devuelven).
@@ -36,7 +36,7 @@ public static int add(int a, int b) {
 }
 ```
 
-## 6.2 Seg&uacute;n sus par&aacute;metros
+## Seg&uacute;n sus par&aacute;metros
 
 - Sin par&aacute;metros: no necesitan ninguna informaci&oacute;n externa para ejecutarse.
 - Con par&aacute;metros: requieren que les pases variables o valores espec&iacute;ficos entre los par&eacute;ntesis para poder trabajar con ellos.

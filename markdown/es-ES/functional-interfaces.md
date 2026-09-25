@@ -1,8 +1,8 @@
 # Taller de Introducci&oacute;n al Lenguaje de Programaci&oacute;n Java
 
-# 12. Interfaces funcionales
+# Interfaces funcionales
 
-## 12.1 Definici&oacute;n
+## Definici&oacute;n
 
 Heredado de la programaci&oacute;n funcional, y a pesar de que Java no es un
 lenguaje realmente funcional, nacen las interfaces funcionales, una clase de
@@ -21,7 +21,7 @@ en el desarrollo del lenguaje, se han acabado adaptando desde funciones del tipo
 matem&aacute;tico, con una o varias entradas y una sola salida, hasta
 procedimientos sin entradas ni salidas.
 
-## 12.2 Interfaces y usos
+## Interfaces y usos
 
 En el paquete oficial de funciones del JDK, `java.util.function`, se pueden
 encontrar varias interfaces funcionales muy interesantes. Lo son sobre todo

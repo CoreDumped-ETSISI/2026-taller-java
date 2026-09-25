@@ -1,8 +1,8 @@
 # Taller de Introducci&oacute;n al Lenguaje de Programaci&oacute;n Java
 
-# 7. Tipos Complejos: clases
+# Tipos Complejos: clases
 
-## 7.1 Clases y objetos
+## Clases y objetos
 
 Una clase funciona como una plantilla, y los objetos son instancias creadas a
 partir de esa plantilla.
@@ -27,7 +27,7 @@ myDog.name = "Firulais"; // Sets a name for this instance of Dog
 myDog.bark();            // Prints "Firulais says: rawr"
 ```
 
-## 7.2 La clase `String`
+## La clase `String`
 
 A diferencia de `char`, que es primitivo y guarda una sola letra, `String` es
 una clase que incorpora m&eacute;todos muy &uacute;tiles.
@@ -40,7 +40,7 @@ String capitalised = greeting.toUpperCase();      // "HELLO, JAVA"
 boolean startsWithHe = greeting.startsWith("He"); // true
 ```
 
-## 7.3 Clases envoltorio
+## Clases envoltorio
 
 Las clases envoltorio o "wrapper classes" permiten tratar los tipos primitivos
 como objetos.

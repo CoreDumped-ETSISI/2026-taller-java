@@ -1,8 +1,8 @@
 # Taller de Introducci&oacute;n al Lenguaje de Programaci&oacute;n Java
 
-# 8. Estructuras de datos
+# Estructuras de datos
 
-## 8.1 Vectores de longitud fija (arrays)
+## Vectores de longitud fija (arrays)
 
 Permiten almacenar m&uacute;ltiples elementos del mismo tipo en una estructura
 de tama&ntilde;o fijo.
@@ -16,7 +16,7 @@ String[] fruits = { "Apple", "Pear", "Banana" };
 System.out.println(frutas[0]); // Prints "Apple"
 ```
 
-## 8.2 `ArrayList` (listas din&aacute;micas)
+## `ArrayList` (listas din&aacute;micas)
 
 Estructura muy utilizada en Java cuando el n&uacute;mero de elementos es
 variable.

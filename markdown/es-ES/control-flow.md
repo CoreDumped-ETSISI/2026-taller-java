@@ -1,8 +1,8 @@
 # Taller de Introducci&oacute;n al Lenguaje de Programaci&oacute;n Java
 
-# 5. Estructuras de control del flujo
+# Estructuras de control del flujo
 
-## 5.1 Sentencia condicional (if-else)
+## Sentencia condicional (if-else)
 
 Permite ejecutar bloques de c&oacute;digo dependiendo de si se cumple o no una
 condici&oacute;n.
@@ -17,7 +17,7 @@ if (age >= 18) {
 }
 ```
 
-## 5.2 Sentencia de selecci&oacute;n por casos (switch)
+## Sentencia de selecci&oacute;n por casos (switch)
 
 &Uacute;til para evaluar una variable frente a m&uacute;ltiples valores fijos
 posibles.
@@ -38,7 +38,7 @@ switch (day) {
 }
 ```
 
-## 5.3 Bucle while
+## Bucle while
 
 Ejecuta un bloque de c&oacute;digo repetidamente mientras una condici&oacute;n
 sea verdadera.
@@ -52,7 +52,7 @@ while (counter <= 3) {
 }
 ```
 
-## 5.4 Bucle do-while
+## Bucle do-while
 
 Similar al while, pero garantiza que el bloque de c&oacute;digo se ejecuta al
 menos una vez antes de evaluar la condici&oacute;n.
@@ -66,7 +66,7 @@ do {
 } while (tries < 1);
 ```
 
-## 5.5 Bucle for
+## Bucle for
 
 Ideal cuando sabemos de antemano cu&aacute;ntas veces queremos repetir un bloque
 de instrucciones.

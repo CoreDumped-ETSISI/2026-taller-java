@@ -1,8 +1,8 @@
 # Taller de Introducci&oacute;n al Lenguaje de Programaci&oacute;n Java
 
-# 1. Variables
+# Variables
 
-## 1.1 Convenci&oacute;n de nombres y tipos primitivos
+## Convenci&oacute;n de nombres y tipos primitivos
 
 En Java, la mayor parte de nombres se escriben, por convenci&oacute;n, con la
 notaci&oacute;n **camelCase**. Son excepciones los nombres de clases, que usan
@@ -16,7 +16,7 @@ m&aacute;s usados son: `int`, para n&uacute;meros enteros, `double`, para
 n&uacute;meros reales, `char`, para caracteres individuales, y `boolean`, para
 valores l&oacute;gicos (V/F).
 
-## 1.2 Declaraci&oacute;n y asignaci&oacute;n de variables
+## Declaraci&oacute;n y asignaci&oacute;n de variables
 
 Las variables se declaran siguiendo el formato `<type> <name>;` y se le pueden
 asignar valores con el formato `<name> = <value>;`.

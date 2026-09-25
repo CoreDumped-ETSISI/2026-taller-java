@@ -1,13 +1,13 @@
 # Taller de Introducci&oacute;n al Lenguaje de Programaci&oacute;n Java
 
-# 9. Clases abstractas e interfaces
+# Clases abstractas e interfaces
 
 En la programaci&oacute;n orientada a objetos (POO), tanto las **clases
 abstractas** como las **interfaces** son mecanismos que permiten definir
 contratos y lograr el polimorfismo. Sin embargo, tienen prop&oacute;sitos y
 reglas de dise&ntilde;o diferentes.
 
-## 9.1 Clases abstractas (`abstract class`)
+## Clases abstractas (`abstract class`)
 
 Una clase abstracta es una clase que **no se puede instanciar directamente**. Su
 objetivo principal es servir como una **plantilla o base** para otras clases
@@ -57,7 +57,7 @@ public class Car extends Vehicle {
 }
 ```
 
-## 9.2 Interfaces (`interface`)
+## Interfaces (`interface`)
 
 Una interfaz es un **contrato de comportamiento**. Define *qu&eacute;* debe hacer una clase, pero no *c&oacute;mo* debe hacerlo. Representa una capacidad o rol que una clase puede adoptar.
 
@@ -89,7 +89,7 @@ public class Bicycle implements Drivable {
 }
 ```
 
-## 9.3 Diferencias clave (tabla comparativa)
+## Diferencias clave (tabla comparativa)
 
 | Caracter&iacute;stica | Clase abstracta                                                                       | Interfaz                                                                          |
 |-----------------------|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ public class Bicycle implements Drivable {
 | Constructores         | **S&iacute;** tiene constructores (&uacute;tiles para inicializar estados heredados). | **No** tiene constructores.                                                       |
 | Prop&oacute;sito      | Relaci&oacute;n de parentesco estricta ("es un" tipo de).                             | Definici&oacute;n de capacidades o comportamientos transversales ("puede hacer"). |
 
-## 9.4 &iquest;Cu&aacute;ndo usar cada una? (Regla de oro para el taller)
+## &iquest;Cu&aacute;ndo usar cada una? (Regla de oro para el taller)
 
 - **Usa una clase abstracta cuando:**
   - Compartas c&oacute;digo com&uacute;n (atributos y m&eacute;todos con estado) entre clases estrechamente relacionadas.

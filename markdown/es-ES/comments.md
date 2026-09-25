@@ -1,6 +1,6 @@
 # Taller de Introducci&oacute;n al Lenguaje de Programaci&oacute;n Java
 
-# 3. Comentarios
+# Comentarios
 
 Los comentarios son notas explicativas que el compilador de Java ignora por
 completo y no son relevantes para la ejecuci&oacute;n.

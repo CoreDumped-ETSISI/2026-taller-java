@@ -1,11 +1,11 @@
 # Taller de Introducci&oacute;n al Lenguaje de Programaci&oacute;n Java
 
-# 2. Operadores
+# Operadores
 
 Los operadores en Java son s&iacute;mbolos que nos permiten manipular variables,
 realizar c&aacute;lculos y comparar valores para tomar decisiones.
 
-## 2.1 Operadores de condici&oacute;n
+## Operadores de condici&oacute;n
 
 > Tambi&eacute;n conocidos como operadores de igualdad o relacionales
 b&aacute;sicos.
@@ -21,7 +21,7 @@ boolean equals = (a == b);      // false (Is 'a' equal to 'b'?)
 boolean different = (a != b);   // true  (Is 'a' different from 'b'?)
 ```
 
-## 2.2 Operadores de orden
+## Operadores de orden
 
 > Tambi&eacute;n conocidos como operadores relacionales.
 
@@ -37,7 +37,7 @@ boolean lowerLimit = (edad > 10);  // true
 boolean upperLimit = (edad <= 65); // true
 ```
 
-## 2.3 Operadores l&oacute;gicos
+## Operadores l&oacute;gicos
 
 Su prop&oacute;sito es el de concatenar condiciones o negar expresiones
 booleanas.
@@ -61,7 +61,7 @@ boolean noMoney = !hasMoney;                   // false
 > evitar evaluar sentencias posteriores si una anterior ha incumplido la
 > condici&oacute;n.
 
-## 2.4 Operaciones aritm&eacute;ticas
+## Operaciones aritm&eacute;ticas
 
 Son los operadores matem&aacute;ticos b&aacute;sicos para realizar
 c&aacute;lculos num&eacute;ricos.
