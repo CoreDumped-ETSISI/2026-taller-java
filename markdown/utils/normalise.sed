@@ -10,3 +10,7 @@ s/Ó/\&Oacute;/g
 s/Ú/\&Uacute;/g
 s/ñ/\&ntilde;/g
 s/Ñ/\&Ntilde;/g
+s/ü/\&uuml;/g
+s/Ü/\&Uuml;/g
+s/¿/\&iquest;/g
+s/¡/&iexcl;/g
