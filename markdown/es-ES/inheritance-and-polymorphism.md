@@ -1,13 +1,13 @@
 # Taller de Introducci&oacute;n al Lenguaje de Programaci&oacute;n Java
 
-# 10. Herencia y polimorfismo
+# Herencia y polimorfismo
 
 La **herencia** y el **polimorfismo** son dos de los cuatro pilares
 fundamentales de la Programaci&oacute;n Orientada a Objetos (POO). Juntos
 permiten reutilizar c&oacute;digo, establecer jerarqu&iacute;as l&oacute;gicas y
 dise&ntilde;ar aplicaciones flexibles y escalables.
 
-## 10.1 Herencia (`extends`)
+## Herencia (`extends`)
 
 La herencia es un mecanismo que permite a una clase (llamada **clase hija**,
 subclase o derivada) heredar los atributos y m&eacute;todos de otra clase
@@ -57,7 +57,7 @@ public class Dog extends Animal {
 }
 ```
 
-## 10.2 Polimorfismo
+## Polimorfismo
 
 El polimorfismo, que significa literalmente "muchas formas", es la capacidad de
 que un mismo m&eacute;todo o mensaje se comporte de manera diferente
@@ -113,7 +113,7 @@ public class Main {
 
 ```
 
-## 10.3 Resumen
+## Resumen
 
 - **Herencia:** Permite construir nuevas clases basadas en clases ya existentes,
   jerarquizando el c&oacute;digo (relaci&oacute;n *"es un"*).
