@@ -27,3 +27,5 @@
     2. La clase `String`
     3. Clases envoltorio
 8. [Estructuras de datos](08.md)
+    1. Vectores de longirud fija (arrays)
+    2. `ArrayList` (listas din&aacute;micas)
