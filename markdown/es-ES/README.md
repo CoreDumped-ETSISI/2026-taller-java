@@ -32,7 +32,7 @@
     1. Clases abstractas
     2. Interfaces
     3. Diferencias clave
-    4. ¿Cu&aacute;ndo usar cada una?
+    4. &iquest;Cu&aacute;ndo usar cada una?
 10. [Herencia y polimorfismo](inheritance-and-polymorphism.md)
     1. Herencia
     2. Polimorfismo
